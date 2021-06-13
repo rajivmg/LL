@@ -43,7 +43,7 @@ namespace imgui_miniengine
     {
         for(int I = 0; I < SwapChainBufferCount; ++I)
         {
-            FrameResources[I].Ib.Create(std::wstring(L"ImGui_VertexBuffer") + std::to_wstring(I), Size);
+            FrameResources[I].Ib.Create(std::wstring(L"ImGui_IndexBuffer") + std::to_wstring(I), Size);
         }
     }
 
