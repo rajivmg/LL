@@ -20,7 +20,6 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp" />
     <ClCompile Include="Code\ImGuiMiniEngineImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -39,10 +38,30 @@
     <ClCompile Include="3rdParty\ImGui\imgui_widgets.cpp">
       <Filter>Source Files\ImGui</Filter>
     </ClCompile>
+    <ClCompile Include="3rdParty\ImGui\ImGuizmo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\LL_Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\LL_MeshExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\LL_Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\LL_Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\LL_PCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\LL_Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h" />
-    <ClInclude Include="Code\Basics.h">
+    <ClInclude Include="Code\LL_Common.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Code\ImGuiMiniEngineImpl.h">
@@ -65,6 +84,27 @@
     </ClInclude>
     <ClInclude Include="3rdParty\ImGui\imstb_truetype.h">
       <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\ImGui\ImGuizmo.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LL_Scene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LL_MeshExporter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LL_Utility.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LL_Mesh.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LL_Material.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LL_PCH.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -92,12 +132,21 @@
     <None Include="Code\Shaders\ImGuiCommon.hlsli">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="Code\Shaders\Common.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Code\Shaders\ImGuiVS.hlsl">
       <Filter>Shaders</Filter>
     </FxCompile>
     <FxCompile Include="Code\Shaders\ImGuiPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Code\Shaders\LitVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Code\Shaders\LitPS.hlsl">
       <Filter>Shaders</Filter>
     </FxCompile>
   </ItemGroup>

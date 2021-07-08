@@ -25,6 +25,15 @@ LL/3rdParty/cereal-1.3.0/unittests
 LL/3rdParty/cereal-1.3.0/sandbox
 LL/3rdParty/cereal-1.3.0/scripts
 LL/3rdParty/cereal-1.3.0/doc
+LL/3rdParty/entt-3.7.1/.github
+LL/3rdParty/entt-3.7.1/build
+LL/3rdParty/entt-3.7.1/cmake
+LL/3rdParty/entt-3.7.1/conan
+LL/3rdParty/entt-3.7.1/docs
+LL/3rdParty/entt-3.7.1/script
+LL/3rdParty/entt-3.7.1/src
+LL/3rdParty/entt-3.7.1/test
+LL/3rdParty/glm
 ModelConverter
 ModelViewer
 Model

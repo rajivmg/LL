@@ -1,6 +1,6 @@
 #include "imgui.h"
 
-#include "Basics.h"
+#include "LL_Common.h"
 #include "ImGuiMiniEngineImpl.h"
 
 #include "GraphicsCore.h"
@@ -35,9 +35,6 @@ namespace imgui_miniengine
     static Texture FontTexture;
     static GraphicsPSO PSO;
     static RootSignature RootSig;
-
-    //static DescriptorHeap TextureHeap;
-    //static DescriptorHandle TextureDescriptorHandle;
 
     static void CreateIndexBuffers(unsigned long Size)
     {

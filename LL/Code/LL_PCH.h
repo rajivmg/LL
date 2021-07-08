@@ -57,3 +57,20 @@
 #include "VectorMath.h"
 #include "EngineTuning.h"
 #include "EngineProfiling.h"
+
+//
+#include "GraphicsCore.h"
+#include "GameCore.h"
+#include "GameInput.h"
+#include "GraphicsCommon.h"
+#include "Display.h"
+#include "ColorBuffer.h"
+#include "TextureManager.h"
+#include "BufferManager.h"
+#include "CommandContext.h"
+#include "RootSignature.h"
+#include "PipelineState.h"
+#include "UploadBuffer.h"
+#include "CameraController.h"
+//
+#include "entt/entt.hpp"
